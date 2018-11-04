@@ -23,6 +23,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.speaker=true \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicerec=false \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7 \
     ro.vendor.audio.sdk.fluencetype=none \
     vendor.audio_hal.period_size=192 \
     vendor.audio.hw.aac.encoder=true \
@@ -71,6 +73,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Factory reset protection
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/config
+
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    log.tag.synaFpHal=W \
+    log.tag.SynapticsLIB=W \
+    log.tag.synaTransport=W
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
