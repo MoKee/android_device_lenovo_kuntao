@@ -4,6 +4,10 @@
     "target_path": "kernel/lenovo/msm8953"
   },
   {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  },
+  {
     "repository": "android_vendor_lenovo_kuntao",
     "target_path": "vendor/lenovo/kuntao"
   }
