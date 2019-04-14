@@ -46,4 +46,4 @@
 # Touchscreen
 /sys/board_properties/tpd_glove_status                                     u:object_r:sysfs_touchpanel:s0
 /sys/board_properties/tpd_suspend_status                                   u:object_r:sysfs_touchpanel:s0
-/vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.kuntao                 u:object_r:hal_lineage_touch_default_exec:s0
+/vendor/bin/hw/vendor\.mokee\.touch@1\.0-service\.kuntao                 u:object_r:hal_mokee_touch_default_exec:s0

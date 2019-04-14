@@ -17,7 +17,7 @@
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-mokee
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -197,8 +197,8 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+    vendor.mokee.livedisplay@2.0-service-sdm \
+    vendor.mokee.livedisplay@2.0-service-sysfs
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_smd_1080p_549.xml
@@ -348,11 +348,11 @@ PRODUCT_BOOT_JARS += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.kuntao
+    vendor.mokee.touch@1.0-service.kuntao
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.mokee.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
