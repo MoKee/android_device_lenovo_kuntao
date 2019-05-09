@@ -62,6 +62,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
+    debug.sf.enable_hwc_vds=1 \
     ro.opengles.version=196610 \
     ro.sf.lcd_density=480 \
     ro.vendor.display.cabl=0 \
@@ -81,7 +82,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     log.tag.synaFpHal=W \
     log.tag.SynapticsLIB=W \
-    log.tag.synaTransport=W
+    log.tag.synaTransport=W \
+    persist.vendor.fp.gesture=0
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -95,7 +97,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.disable.split.mode=1 \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.enc.disable_pframes=1 \
-    vendor.vidc.enc.narrow.searchrange=1
+    vendor.vidc.enc.disable.pq=true \
+    vendor.vidc.enc.narrow.searchrange=1 \
+    vendor.video.disable.ubwc=1
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
