@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kuntao.mk
+    $(LOCAL_DIR)/mokee_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_kuntao-user \
-    lineage_kuntao-userdebug \
-    lineage_kuntao-eng
+    mokee_kuntao-user \
+    mokee_kuntao-userdebug \
+    mokee_kuntao-eng
